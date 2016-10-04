@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Sep 27 d</title>
+	<style type="text/css">
+</head>
+
+*{ margin: 0
+ }
+
+.item {
+	display: inline-block;
+	width: 20%;
+	margin: 60px 5px;
+	text-align: center;
+	border:2px black solid ;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+div#header {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black; 
+}
+div#left {
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 15px 10px;
+}
+	ul li {
+	    list-style: none;
+	    padding: 35px;
+	    font-size: 30px;
+	    font-family: cursive;
+	    text-align: center;
+	}
+
+	#left ul li a {
+	    text-decoration: none;
+	    color: #f70ae3;
+	    text-align: center;
+	    font-weight: bold;
+	}
+
+	#left ul li a:hover {
+	    color: yellow;
+	}    
+div#right {
+    width: 65%;
+    height: 500px;
+	display: inline-block;
+	padding: 15px;
+    border: 1px solid black;
+    margin: 15px 10px;
+}
+div#bottom {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+}
+div#footer{
+    width: 100%;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 15px 0px;
+}
+#container div{	box-sizing: border-box;
+	vertical-align: top;
+}
+div#container {width:1000px;
+	margin: auto;
+}
+div#bigbox{
+	width: 1000px
+}
+.box{
+	background: green;
+	    width: 20%;
+	    height: 150px;
+	    display: inline-block;
+	    margin: 20px;
+	    position: relative;
+	    border-radius: 50px 0;
+	    background: #3FCA3F;
+	}	   
+
+.boxa{
+	    position: absolute;
+	    top: -20px;
+	    right: -20px;
+	    width: 50px;
+	    background: #BD1919;
+	    height: 50px;
+	    border-radius: 50px;
+}
+.boxb{
+	    position: absolute;
+	    background: #BD1919;
+	    bottom: -20px;
+	    left: -20px;
+	    width: 50px;
+	    height: 50px;
+	    border-radius: 50px;
+}
+
+</style>
+<body>
+<div id="container">
+	<div id="header">
+	<img src="ga2.jpg" alt="Mountain View" style="width:150px;height:150px;margin: 20px;">
+	<div id="item1" class="item" >About</div>
+
+	<div id="item2" class="item" >Contact</div>
+
+	<div id="item3" class="item" >item 3</div>
+
+	</div>
+	<div id="left">
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+	</div>
+	<div id="right">
+		<h1>Hi</h1>
+		testing
+	</div>
+		<div id="bigbox">
+		<div id="box1" class="box">
+			<div id="box1_a" class="boxa"></div>
+			<div id="box1_b" class="boxb"></div>
+		</div> <!--end of box1-->
+
+		<div id="box2" class="box">
+			<div id="box2_a" class="boxa"></div>
+			<div id="box2_b" class="boxb"></div>
+		</div> <!--end of box2-->
+
+		<div id="box3" class="box">
+			<div id="box3_a" class="boxa"></div>
+			<div id="box3_b" class="boxb"></div>
+		</div> <!--end of box3-->
+
+		<div id="box4" class="box">
+			<div id="box4_a" class="boxa"></div>
+			<div id="box4_b" class="boxb"></div>
+		</div> <!--end of box4-->
+        </div>
+		
+	</div>
+	<div id="footer"></div>
+</div>
+
+
+</body>
+</html>
