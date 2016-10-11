@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Oct 6b</title>
+	<style type="text/css">
+</head>
+
+*{ margin: 0
+ }
+div#container {width:1000px;
+margin: auto;}
+<!--	 -->
+
+.item {
+	display: inline-block;
+	width: 10%;
+	margin:7% 1% 1% 1%;
+	text-align: center;
+	border:2px black solid ;
+	padding: 20px;
+	border-radius: 10px;
+	background-image: url(wall1.png);
+}
+
+div#header {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black; 
+    background-image: url(images8.jpg); 
+}
+div#left {
+    box-sizing: border-box;
+    height: 500px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 3% 0% 0% 0%;
+}
+div#right {
+    box-sizing: border-box;
+    height: 500px;
+	display: inline-block;
+	padding: 15px;
+    border: 1px solid black;
+    margin: -50.1% 0% 0% 14%;
+    background-image: url(wood1.jpg); 
+}
+	ul li {
+	    list-style: none;
+	    padding: 35px;
+	    font-size: 30px;
+	    font-family: cursive;
+	    text-align: center;
+	}
+
+	#left ul li a {
+	    text-decoration: none;
+	    color: #f70ae3;
+	    text-align: center;
+	    font-weight: bold;
+	}
+
+	#left ul li a:hover {
+	    color: yellow;
+	}    
+
+div#bottom {
+    width: 100%;
+    height: 150px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: auto;
+    text-align: center;
+}
+div#footer{
+    width: 1000px;
+    height: 100px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 3% 0% 0% 5%;
+}
+
+div#bigbox{
+	width: 1000px
+}
+.box{
+	
+	    width: 20%;
+	    height: 150px;
+	    display: inline-block;
+	    margin: 50px 20px;
+	    position: relative;
+	    border-radius: 50px 0;
+	    background: url(images7.jpg);
+	}	   
+
+.boxa{
+	    position: absolute;
+	    top: -20px;
+	    right: -20px;
+	    width: 50px;
+	    background: #BD1919;
+	    height: 50px;
+	    border-radius: 50px;
+}
+.boxb{
+	    position: absolute;
+	    background: #BD1919;
+	    bottom: -20px;
+	    left: -20px;
+	    width: 50px;
+	    height: 50px;
+	    border-radius: 50px;
+}
+fieldset 
+{ 
+	background: #98FB98;
+	width:40%;
+	margin: 0 auto;
+    text-align: left;
+    display: inline-block;
+    border: 2px groove (internal value);
+}
+fieldset legend 
+{
+    background: #98FB98
+}
+input.btnsub
+{
+	background:#98FB98;
+}
+input.btnreset
+{
+	background:#98FB98;
+}
+input.btnbrowse
+{
+	background:#98FB98;
+}
+input
+{
+	background:#FFFF33;
+}
+textarea
+{
+	background:#FFFF33;
+}
+</style>
+
+<body>
+<div id="container">
+	<div id="header">
+	<img src="sham.png" alt="Mountain View" style="width:350px;height:150px;margin: 2% 1% 1% 1%; display: inline-block;">
+	<div id="item1" class="item" >About</div>
+
+	<div id="item2" class="item" >Contact</div>
+
+	<div id="item3" class="item" >History</div>
+
+	</div>
+	<div id="left">
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+		</ul>
+	</div>
+	<div id="right">
+		<h1>Lorem Ipsum</h1>
+		There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200<br>
+		There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 
+ 
+	</div>
+		<div id="bigbox">
+		<div id="box1" class="box">
+			<div id="box1_a" class="boxa"></div>
+			<div id="box1_b" class="boxb"></div>
+		</div> <!--end of box1-->
+
+		<div id="box2" class="box">
+			<div id="box2_a" class="boxa"></div>
+			<div id="box2_b" class="boxb"></div>
+		</div> <!--end of box2-->
+
+		<div id="box3" class="box">
+			<div id="box3_a" class="boxa"></div>
+			<div id="box3_b" class="boxb"></div>
+		</div> <!--end of box3-->
+
+		<div id="box4" class="box">
+			<div id="box4_a" class="boxa"></div>
+			<div id="box4_b" class="boxb"></div>
+		</div> <!--end of box4-->
+        </div>
+	</div>
+
+	<form>
+<!-- Detail informations -->
+
+ <fieldset>
+  <legend>Personal informations:</legend>
+  <center>
+  <table border="0" >
+   <tr>
+      <th><p align="right">Personal Titles</p></th>
+	  <td><input type="radio" name="pt" value="Mr" checked> Mr
+		  <input type="radio" name="pt" value="Mrs"> Mrs  *
+	  </td>
+  </tr>
+  <tr>
+	  <th><p align="right">Name</p></th>
+	  <td><input type="text" Value="" size="45">*</td>
+  </tr>
+  <tr>
+	  <th><p align="right">Email</p></th>
+	  <td><input type="text" Value="" size="45">*</td>
+  </tr>
+  <tr>
+	  <th><p align="right">Address</p></th>
+	  <td><textarea rows="4" cols="45"></textarea>*</td>
+  </tr>
+  </table>
+ </center>
+ </fieldset>
+ <br>
+ 
+ 
+  <!-- Detail informations -->
+  <fieldset>
+  <legend>Detail informations:</legend>
+  <center>
+  <table border="0" >
+   <tr>
+      <th><p align="right">Backround</p></th>
+	  <td ><input type="radio" name="pt1" value="C#" checked> C#
+		  <input type="radio" name="pt1" value="Java"> Java
+		  <input type="radio" name="pt1" value="PHP"> PHP
+		  <input type="radio" name="pt1" value="Html"> HTML
+	  </td>
+  </tr>
+  <tr>
+	  <th><p align="right">Transport</p></th>
+	  <td><select>
+			<option value="volvo">Motorcycle</option>
+			<option value="saab">Car</option>
+			<option value="saab">Other</option>
+		   </select>
+	  </td>
+  </tr>
+  <tr>
+	  <th><p align="right">Education</p></th>
+	  <td><input type="checkbox" name="vehicle" value="SPM">SPM
+	      <input type="checkbox" name="vehicle" value="Diploma" >Diploma
+		  <input type="checkbox" name="vehicle" value="Degree" checked>Degree<br>
+	  </td>
+  </tr>
+  <tr>
+	  <th><p align="right">Photo</p></th>
+	  <td><input type="text" Value="" size="40"><input type="submit" value="Browse" class="btnbrowse"></td>
+  </tr>
+  <tr>
+	  <th><p align="right">Address</p></th>
+	  <td><textarea rows="4" cols="40"></textarea></td>
+  </tr>
+  </table>
+  </center>
+  </fieldset>
+  
+  <center>
+  <br>
+  <input type="submit" value="Submit" class="btnsub"> <input type="submit" value="Reset" class="btnreset">
+  <center>
+ 
+</form>
+	<div id="footer">e mail</div>
+</div>
+
+
+</body>
+</html>
