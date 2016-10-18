@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+	
+</head>
+<style type="text/css">
+* {
+	margin=0
+}
+#form1 {width: 460px;
+ font-size: 14px; 
+ font-family: " Helvetica"; 
+ font-weight: 400; 
+ line-height: 16px; 
+ resize: none;
+ background-color: gray;
+ padding: 0% 0% 0% 3%; 
+}
+.item {padding: 2% 2% 2% 2%;
+margin: 2% 0% 0% 0%;
+}
+.item2 {padding: 2% 2% 2% 2%;
+margin: 2% 0% 0% 0%;
+}
+</style>
+
+
+<body>
+<div id="container">
+<div id="form1">
+<form action="action.php"> -->
+  <br>
+  <h1> Sign Up </h1>
+<h2> it's free and always will be.</h2>
+<br>
+  <input type="text" name="firstname" value="First name" class="item">
+  <input type="text" name="lastname" value="Last name"class="item">
+  <br>
+  <input type="text" name="contact" value="Email or mobile number" class="item" size="48">
+  <br>
+  <input type="text" name="contact2" value="Re-enter email or mobile number" class="item" size="48">
+  <br>
+  <input type="text" name="password" value="New password" class="item" size="48">
+  <br>
+  <h2> Birthday</h2>
+  <select name="Month" class="item2">
+    <option value="Jan">Jan</option>
+    <option value="Feb">Feb</option>
+    <option value="Mar">Mar</option>
+    <option value="Apr">Apr</option>
+    <option value="May">May</option>
+    <option value="Jun">Jun</option>
+  </select>
+    <select name="Day" class="item2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+  </select>
+    <select name="year" class="item2">
+    <option value="1971">1971</option>
+    <option value="1972">1972</option>
+    <option value="1973">1973</option>
+    <option value="1974">1974</option>
+    <option value="1975">1975</option>
+    <option value="1976">1976</option>
+  </select>
+  <br>
+  <br>
+  <input type="radio" name="gender" value="Female">Female
+  <input type="radio" name="gender" value="Male">Male
+  <br>
+  <br>
+  <input type="submit" value="Sign Up">
+</form>
+</div>
+</div>
+</body>
+</html>
